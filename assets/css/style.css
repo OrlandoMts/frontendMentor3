@@ -19,6 +19,13 @@ a{
     text-decoration: none;
 }
 
+
+.blockImg img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .menu {
     list-style-type: none;
 }
@@ -91,12 +98,6 @@ a{
     font-weight: 700;
     /* font-family: 'Noto Serif KR', serif;
     font-family: 'Open Sans', sans-serif; */
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
 }
 
 .blockA1 {
@@ -271,6 +272,7 @@ section .section.title{
     
     .blockImg{
         position: absolute;
+        max-width: 100%;
         left: 750px;
         top: 30px;
     }
